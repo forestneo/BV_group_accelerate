@@ -19,5 +19,8 @@ def read_age(filename):
     return res
 
 if __name__ == "__main__":
-    print(read_age("test.txt"))
+    datalist = read_age("test.txt")
+    print(np.max(datalist))
+    print(np.min(datalist))
+
     pass
