@@ -33,7 +33,7 @@ def restore_data(bv_list, u):
 
 if __name__ == '__main__':
     datalist = np.asarray(reader.read_age("../data/test.txt"))
-    datalist = datalist[np.where(datalist <= 100)]
+    datalist = datalist[np.where(datalist < 100)]
     # print(datalist)
     print(len(datalist))
     # plt.hist(datalist)

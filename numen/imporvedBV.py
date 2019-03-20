@@ -7,7 +7,6 @@ import numpy as np
 from numen import bitvector as bv
 
 def worst_case_error():
-
     t = 25
     lower = 0 - t
     upper = 50 + t
@@ -49,8 +48,6 @@ def worst_error_with_s():
     u = upper - lower
 
     for s in range(50, 2001, 50):
-
-
         random_list = np.random.uniform(low=lower, high=upper, size=s)
         # random_uniform_list = np.asarray([lower+(i+1) * (upper-lower) / (s+1) for i in range(s)])
 
