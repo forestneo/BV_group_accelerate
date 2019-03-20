@@ -29,6 +29,9 @@ def bv_decode(bv_1, bv_2, u):
     return de
 
 
+def coinflip(vec, p):
+    flip = np.random.binomial(1, p, len(vec))
+    return(np.where(flip==1, vec, 1-vec))
 
 def my_test():
     t = 25
@@ -50,6 +53,15 @@ def my_test():
     print(true_distance, estimate_distance)
 
 
+def onehot(v, u=100):
+    if not (v >= 0 or v < u):
+        print("in onehot encoding, error")
+        exit(0)
+    y = np.zeros([u+1], dtype=int)
+    y[v] = 1
+    return y
+
+
 if __name__ == "__main__":
-    my_test()
+    print(onehot(1, 10))
     pass
