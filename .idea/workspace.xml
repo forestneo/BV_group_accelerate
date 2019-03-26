@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1dca9da2-dbd8-48b6-8f6b-74b6a332fff4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparison/groupAccelerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparison/groupAccelerate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numen/bitvector.py" beforeDir="false" afterPath="$PROJECT_DIR$/numen/bitvector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numen/dpbv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="21" column="13" selection-start-line="40" selection-start-column="4" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#137#155#0" expanded="true" />
               </folding>
@@ -28,10 +31,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numen/bitvector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="85" column="11" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="11" />
+              <folding>
+                <element signature="e#68#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comparison/groupAccelerate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="184" column="26" lean-forward="true" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
+              <folding>
+                <element signature="e#85#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numen/imporvedBV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+            <state relative-caret-position="414">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -54,6 +90,7 @@
       <find>机化性肺炎</find>
       <find />
       <find>\n</find>
+      <find>uniform</find>
     </findStrings>
     <replaceStrings>
       <replace>bv</replace>
@@ -67,12 +104,13 @@
       <list>
         <option value="$PROJECT_DIR$/data/IBV__Test.py" />
         <option value="$PROJECT_DIR$/data/age2.txt" />
-        <option value="$PROJECT_DIR$/comparison/groupAccelerate.py" />
-        <option value="$PROJECT_DIR$/data/reader.py" />
-        <option value="$PROJECT_DIR$/numen/bitvector.py" />
         <option value="$PROJECT_DIR$/numen/bvHistogram.py" />
         <option value="$PROJECT_DIR$/numen/imporvedBV.py" />
         <option value="$PROJECT_DIR$/numen/dpbv.py" />
+        <option value="$PROJECT_DIR$/numen/bitvector.py" />
+        <option value="$PROJECT_DIR$/numen/functionTest.py" />
+        <option value="$PROJECT_DIR$/data/reader.py" />
+        <option value="$PROJECT_DIR$/comparison/groupAccelerate.py" />
       </list>
     </option>
   </component>
@@ -92,6 +130,11 @@
             <path>
               <item name="BV_group_accelerate" type="b2602c69:ProjectViewProjectNode" />
               <item name="BV_group_accelerate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BV_group_accelerate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BV_group_accelerate" type="462c0819:PsiDirectoryNode" />
+              <item name="comparison" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BV_group_accelerate" type="b2602c69:ProjectViewProjectNode" />
@@ -133,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dpbv">
+  <component name="RunManager" selected="Python.groupAccelerate">
     <configuration name="bitvector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BV_medical" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,28 +190,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numen/bitvector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bvHistogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BV_medical" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numen" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numen/bvHistogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,6 +219,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="functionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BV_medical" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numen/functionTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="groupAccelerate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BV_medical" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comparison" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comparison/groupAccelerate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BV_medical" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,7 +273,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -220,35 +282,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in dpbv.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="BV_medical" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numen" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/numen/dpbv.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.reader" />
-      <item itemvalue="Python.bvHistogram" />
       <item itemvalue="Python.dpbv" />
       <item itemvalue="Python.bitvector" />
-      <item itemvalue="Python tests.pytest in dpbv.py" />
+      <item itemvalue="Python.functionTest" />
+      <item itemvalue="Python.groupAccelerate" />
+      <item itemvalue="Python.reader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dpbv" />
-        <item itemvalue="Python.bitvector" />
-        <item itemvalue="Python tests.pytest in dpbv.py" />
-        <item itemvalue="Python.bvHistogram" />
+        <item itemvalue="Python.groupAccelerate" />
         <item itemvalue="Python.reader" />
+        <item itemvalue="Python.functionTest" />
+        <item itemvalue="Python.bitvector" />
+        <item itemvalue="Python.dpbv" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +333,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10341151" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27836505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10602911" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.566879" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32866243" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -319,36 +365,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/age2.txt" />
     <entry file="file://$PROJECT_DIR$/comparison/medical_data.txt" />
-    <entry file="file://$PROJECT_DIR$/comparison/groupAccelerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="135" column="74" selection-start-line="135" selection-start-column="74" selection-end-line="135" selection-end-column="74" />
-          <folding>
-            <element signature="e#85#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#138#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numen/bitvector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-          <folding>
-            <element signature="e#68#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -369,12 +385,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/numen/functionTest.py" />
     <entry file="file://$PROJECT_DIR$/numen/dpbv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="252">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="e#137#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numen/imporvedBV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#34#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numen/bitvector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparison/groupAccelerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="184" column="26" lean-forward="true" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
+          <folding>
+            <element signature="e#85#118#0" expanded="true" />
           </folding>
         </state>
       </provider>

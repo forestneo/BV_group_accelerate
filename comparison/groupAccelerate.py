@@ -109,10 +109,10 @@ def my_test():
 
 
 def record_linkage_with_age_dataset():
-    age_list = reader.read_medical_age("../data/medical_data.txt")
-    # print(max(age_list))
-    # print(min(age_list))
-    # print(len(age_list))
+    age_list = reader.read_age("../data/test.txt")
+    print(max(age_list))
+    print(min(age_list))
+    print(len(age_list))
 
     t = 50
     lower = 0 - t
@@ -145,8 +145,45 @@ def record_linkage_with_age_dataset():
         print(threshold_times, precision_bv, recall_bv, fscore_bv, precision_ibv, recall_ibv, fscore_ibv)
 
 
+def record_linkage_with_age_dataset_threshold():
+    age_list = reader.read_age("../data/test.txt")
+    print(max(age_list))
+    print(min(age_list))
+    print(len(age_list))
+
+    t = 50
+    lower = 0 - t
+    upper = 100 + t
+    s = 200
+    u = upper - lower
+
+    list_number = 300
+    value_list_a = age_list[0:list_number]
+    value_list_b = age_list[list_number+1:2*list_number]
+
+    threshold_list = [3,4,5,6,7,8,9,10]
+    threshold_times = 1.1
+    for threshold in threshold_list:
+        random_list = np.random.uniform(low=lower, high=upper, size=s)
+        value_bv_list_a = np.asarray([bv.bv_encode(item=value_list_a[i], random_list=random_list, t=t) for i in range(len(value_list_a))])
+        value_bv_list_b = np.asarray([bv.bv_encode(item=value_list_b[i], random_list=random_list, t=t) for i in range(len(value_list_b))])
+        groundtruth_true, groundtruth_false = get_groundtruth(value_list_a, value_list_b, threshold)
+        ret_true, ret_false, time_without_group = compare_without_group(value_bv_list_a, value_bv_list_b, threshold, u, threshold_times)
+        precision_bv, recall_bv, fscore_bv = analyse_result(groundtruth_true, groundtruth_false, ret_true, ret_false)
+
+        random_uniform_list = np.asarray([lower + (i + 1) * (upper - lower) / (s + 1) for i in range(s)])
+        value_bv_list_a = np.asarray([bv.bv_encode(item=value_list_a[i], random_list=random_uniform_list, t=t) for i in range(len(value_list_a))])
+        value_bv_list_b = np.asarray([bv.bv_encode(item=value_list_b[i], random_list=random_uniform_list, t=t) for i in range(len(value_list_b))])
+        groundtruth_true, groundtruth_false = get_groundtruth(value_list_a, value_list_b, threshold)
+        ret_true, ret_false, time_without_group = compare_without_group(value_bv_list_a, value_bv_list_b, threshold, u, threshold_times)
+        precision_ibv, recall_ibv, fscore_ibv = analyse_result(groundtruth_true, groundtruth_false, ret_true, ret_false)
+
+        print(threshold, precision_bv, recall_bv, fscore_bv, precision_ibv, recall_ibv, fscore_ibv)
+
+
+
 if __name__ == "__main__":
-    record_linkage_with_age_dataset()
+    record_linkage_with_age_dataset_threshold()
     pass
 
 
